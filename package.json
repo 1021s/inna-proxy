@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/1021s/inna-proxy/issues"
   },
-  "homepage": "https://github.com/1021s/inna-proxy#readme"
+  "homepage": "https://github.com/1021s/inna-proxy#readme",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.6.0",
+    "nodemon": "^2.0.1",
+    "request": "^2.88.0"
+  }
 }
